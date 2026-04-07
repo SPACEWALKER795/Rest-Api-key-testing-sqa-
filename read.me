@@ -1,0 +1,6 @@
+run the given below code in comand prompt 
+py -m coverage run -m pytest tests/ --alluredir=allure-results --html=report.html -v && py -m coverage html && allure serve allure-results
+
+
+command to clear genrated allure report files
+rmdir /s /q allure-results

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Broken tests",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Error.*"
+  },
+  {
+    "name": "Failed assertions",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Connection errors",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*ConnectionError.*"
+  },
+  {
+    "name": "Timeout errors",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Timeout.*"
+  },
+  {
+    "name": "Passed tests",
+    "matchedStatuses": ["passed"]
+  }
+]
